@@ -1,0 +1,326 @@
+* {
+    margin: 0; /*margin : 0 의미 - 위 좌 아래 우 여백을 지정하지 않는다는 뜻이다.*/
+    padding:0; /*padding CSS 속성은 요소의 네 방향 안쪽 여백 영역을 설정합니다.*/
+}
+
+html {
+    color: #000;
+    font-size: 10px;
+}
+
+ul,lt {
+    list-style: none; /* 리스트 요소(<ul>, <ol>)의 기본적으로 제공되는 마커(marker)를 없애는 데 사용됩니다.*/
+
+}
+
+a {
+text-decoration: none; /*text-decoration: none;은 CSS 속성으로, 텍스트의 장식(underline, overline, line-through 등)을 
+    제거하는 데 사용됩니다. 이를 통해 링크나 기타 텍스트 요소에 적용된 밑줄을 없앨 수 있습니다.*/
+color: inherit; /*color: inherit;는 CSS 속성으로, 해당 요소가 부모 요소로부터 상속받은 텍스트 색상을 그대로 사용하도록 지정하는 역할을 합니다.*/
+}
+
+.board_wrap {
+width: 1000px; /*width: 1000px;는 CSS 속성으로, 해당 요소의 너비를 1000픽셀로 설정하는 역할을 합니다.
+     이를 통해 해당 요소의 가로 폭을 고정된 값으로 지정할 수 있습니다. */
+ margin:  100px auto; /*margin: 100px auto;는 CSS 속성으로, 해당 요소의 위쪽과 아래쪽 여백(margin)을 100픽셀로 설정하고, 
+     좌우 여백을 자동으로 조정하여 요소를 수평 가운데에 위치시키는 역할을 합니다.*/
+}
+
+.board_title {
+ margin-bottom:30px; /*CSS 속성으로, 해당 요소의 아래쪽 여백(margin)을 설정하는 역할을 합니다.
+     이를 통해 요소와 다음 요소 사이의 간격을 조절할 수 있습니다. */
+
+}
+
+.board_title strong{
+ font-size: 3rem; /*루트 요소(root element)의 폰트 크기를 기준으로한 
+    상대적인 크기를 나타냅니다.브라우저의 기본 폰트 크기가 일반적으로 16픽셀로 
+    설정되어 있기 때문에, 1rem은 16픽셀을 나타냅니다. 
+    따라서 3rem은 3배인 48픽셀을 의미합니다.  rem"은 "root em"의 약어로*/
+
+}
+.board_title p {
+ margin-top: 5px;/*CSS 속성으로, 해당 요소의 위쪽 여백(top)을 설정하는 역할을 합니다.
+ 이를 통해 요소와 다음 요소 사이의 간격을 조절할 수 있습니다. */
+
+ font-size:1.4rem;/*루트 요소(root element)의 폰트 크기를 기준으로한 
+ 상대적인 크기를 나타냅니다.브라우저의 기본 폰트 크기가 일반적으로 16픽셀로 
+ 설정되어 있기 때문에, */
+}
+
+.bt_wrap {
+margin-top:30px; /*css속성에 위쪽 요소) */
+text-align: center; /*텍스 요소가  중앙으로 정렬이 됩니다*/
+font-size: 0; /*요소 구성 크기를 0으로 설정 합니다 */
+}
+
+.bt_wrap a {
+display: inline-block; /* 링크 요소를 인라인 블록 요소로 표시*/
+min-width:80px; /* 링크 요소의 최소 너비를 80픽셀로 설정*/
+margin-left: 10px; /* 링크 요소 옆 에 여백을 10픽셀로 설정 */
+padding:10px; /*링크 안쪽 여백 10픽셀로 설정 */
+border: 1px solid #000; /*링크 요소 1픽셀의 검정색 적용*/
+border-radius:2px; /* 링크 요소를 자유롭게 적응*/
+font-size:1.4rem; /*링크 텍스트 형식을 1.4rem으로 설정*/
+}
+
+.bt_wrap a:first-child {
+    margin-left: 0; /*첫번째 링크 요소에 대한 외쪽 여백을 없는 앱*/
+
+}
+
+.bt_wrap a.on {
+    background: #000; /* 선택된 링크에 대한 배경색을 검은색 */
+    color: #fff; /* 활성화된 링크의 색상을 흰색으로 설정*/
+    
+}
+
+.board_list{
+    width: 100%; /* 위에 클래스 요소의 편안함을 부모 요ㅗ소로 100% 설정*/
+    border-top: 2px solid #000; /*은셀 위에 클래스가 부족한 2픽셀의 
+    검정색 설정을 합니다 */
+}
+.board_list > div{
+    border-bottom: 1px solid #ddd; /*디브의 요소대한 낮은 림을 1픽셀 
+    크기로 조정 합니다 */
+   font-size:0; /* 구성 크기 요소를 0으로 설정 */
+}
+
+.board_list > div.top{ /*위쪽 줄을 희미하게 검정색 줄?*/
+    border-bottom: 1px solid #ddd; /*;list 마지막 div요소대한
+    희미함을 검정색으로 표현 */
+}
+
+.board_list > div:last-child{
+    border-bottom: 1px solid #000; /*list 마지막 div요소에
+    대한 희미함을 검정색으로 설정 합니다.*/
+}
+
+.board_list > div > div{
+    display: inline-block; /*내부 div요소를 인라인 블록 요소로 표시합니다*/
+    padding: 15px 0; /*내부 div 요소를 15px로 설정하고 0으로 설정합니다*/
+    text-align: center; /* 내부를 대신 합니다 */
+    font-size: 1.4rem; /*텍스트크기를 1.4rem 으로 설정합니다 */
+}
+
+.board_list >div.top > div {
+    font-weight: 600; /*div외부 div요소에 대한 무게를 두꺼운 600으로설정*/
+}
+
+
+.board_list .num {
+    width: 10%; /*num 의 가진 요소들의 너비를 10% 구성 */
+}
+
+.board_list .title {
+    width: 60%; /*title 의 가진 요소들의 너비를 60%구성*/
+    text-align: left; /*텍스트를 수평으로 정렬을 왼쪽*/
+}
+
+.board_list .top .title {
+    text-align: center; /*텍스트의 중앙정열*/
+}
+
+.board_list .writer {
+    width: 10%; /*wtiter 의 가진 요소들의 너비를 60% 구성 */
+}
+
+.board_list .date {
+    width: 10%;
+}
+
+.board_list .count {
+    width: 10%;
+}
+
+.board_page{
+    margin-top: 30px; /*해당 요소의 위쪽 여백을 30픽셀로 설정하는
+    규칙을 나타냅니다.*/
+    text-align: center; /*텍스트를 중앙 정렬*/
+    font-size: 0; /*폰트크기를 0으로 설정하는 규칙*/
+}
+
+.board_page a{
+    display: inline-block; /*요소를 인라인 블록 요소로 표시합니다*/
+    width: 32px; /*가로 높이를 32픽셀로 지정*/
+    height: 32px; /*세로 높이를 32픽셀로 설정*/
+    box-sizing: border-box; /* 요소 전체너비와 높이에 테두리와
+    안쪽 여백(padding)까지 포함되도록 박스모델 정의*/
+    vertical-align: middle;
+    border:1px solid #ddd;
+    border-left: 0;
+    line-height: 100%;
+    
+}
+.board_page a.bt{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+
+.board_page a.num{
+    padding-top:9px;
+    font-size: 1.4rem;
+}
+
+.board_page a.num.on{
+    border-color:  #000;
+    background: #000;
+    color: #fff;
+}
+
+
+.board_page a:first-child{
+    border-left:1px solid #ddd;
+}
+
+.board_view{
+    width:100%;
+    border-top: 2px solid #000;
+    
+}
+
+.board_view .title{
+    padding: 20px 15px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 2rem;
+}
+
+.board_view .info{
+    padding:15px;
+    border-bottom: 1px solid #999;
+    font-size:0;
+
+}
+
+.board_view .info dl {
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.board_view .info dl:first-child{
+    padding-left: 0;
+
+}
+
+.board_view .info dl::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width:1px;
+    height: 13px;
+    background: #ddd;
+}
+
+.board_view .info dl:first-child::before{
+    display:none;
+}
+
+.board_view .info dl dt,
+.board_view .info dl dd {
+    display: inline-block;
+    font-size: 1.4rem ;
+}
+
+.board_view .info dl dt {
+    
+}
+
+.board_view .info dl dd {
+    margin-left: 10px;
+    color: #777;
+}
+
+.board_view .cont{
+    padding:15px;
+    border-bottom:1px solid #000;
+    line-height: 160%;
+    font-size:1.4rem;
+
+}
+
+.board_write {
+    border-top: 2px solid #000;
+
+}
+
+.board_write .title,
+.board_write .info{
+    padding: 15px;
+}
+
+.board_write .info{
+    border-top:1px dashed #ddd;
+    border-bottom: 1px solid #000;
+    font-size: 0;
+
+}
+
+.board_write .title dl{
+    font-size:0;
+}
+
+
+.board_write .info dl{
+    display:inline-block;
+    width:50%;
+    vertical-align: middle;
+}
+
+
+.board_write .title dt,
+.board_write .title dd,
+.board_write .info dt,
+.board_write .info dd{
+    display:inline-block;
+    vertical-align: middle;
+    font-size:1.4rem;
+}
+
+.board_write .title dt,
+.board_write .info dt {
+    width: 100px;
+}
+
+.board_write .info dd{
+    width: calc(100% - 100px);
+}
+
+
+.board_write .title input[type="text"]
+.board_write .info input[type="text"]
+.board_write .info input[type="password"]{
+   padding: 10px;
+   box-sizing: border-box ;
+}
+
+
+.board_write .title input[type="text"]{
+    width: 80%;
+}
+
+.board_write .cont{
+    border-bottom:1px solid #000;
+
+}
+
+.board_write .cont textarea{
+    display: block;
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    box-sizing: border-box;
+    border:0;
+    resize:vertical;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+@import url(Story.css);  /* Story.css 의 파일은 여기 파일에 합칠려고 import를 쓴다 */
+@import url(get.css);  /* get.css 의 파일을 여기 css파일에 합칠려고 import 를 쓴다 */
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }

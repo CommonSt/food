@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1;
+  vertical-align: baseline;
+  color: #222222;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+  .centered {
+    display: flex;
+    justify-content: center;
+  }
+  .banner {
+    width: 100%;
+    height: 300px;
+    background-color: #b5d8b8;
+    margin-bottom: 48px;
+}
+  div {
+    display: block;
+}
+.flex {
+  display: flex;
+  flex-flow: wrap row;
+  align-items: stretch;
+}
+ol, ul, li {
+  list-style: none;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.card-item {
+  width: calc((100% - 72px) / 4);
+  margin-right: 24px;
+  margin-bottom: 24px;
+  padding: 16px;
+  padding-bottom: 24px;
+  border: 1px solid #d7d7d7;
+  border-radius: 4px;
+}
+.card-item img {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+img {
+  vertical-align: top;
+}
+.card-item .title {
+  padding-left: 8px;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #222222;
+}
+.card-item .title strong {
+  display: block;
+  padding: 16px 0;
+}
+.card-item .detail {
+  margin-bottom: 16px;
+}
+.flex.nowrap {
+  flex-flow: nowrap row;
+}
+.fs-body {
+  color: #4b4b4b;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.card-item .profile::after {
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #4b4b4b;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+.card-item .text {
+  padding-left: 8px;
+}
+
+  /* 글씨 크기를 조절하는 CSS 스타일을 정의합니다. */
+  p {
+    font-size: 17px;
+    /* 원하는 크기(px)로 설정합니다. */
+  }
+
+  p2 {
+    font-size: 13px;
+    /* 원하는 크기(px)로 설정합니다. */
+  }
+
+  h2 {
+    font-size: 15px;
+    /* 원하는 크기(px)로 설정합니다. */
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  footer {
+    background-color: #555;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+  }
+
+  /* 이미지를 감싸는 컨테이너의 스타일을 정의합니다. */
+  .carousel-inner {
+    width: 100%;
+    /* 원하는 가로 크기로 조절합니다. */
+    height: 400px;
+    /* 원하는 세로 크기로 조절합니다. */
+    overflow: hidden;
+    /* 이미지를 넘어갈 경우 숨깁니다. */
+  }
+
+  #cards {
+    justify-content: center;
+  }
+  .card-item .profile::after {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 12px;
+    background-color: #4b4b4b;
+    margin: 0 8px;
+    vertical-align: middle;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1;
+  vertical-align: baseline;
+  color: #222222;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  box-sizing: border-box;
+}
