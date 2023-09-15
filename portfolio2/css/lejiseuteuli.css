@@ -1,56 +1,173 @@
-@import url(Subledge.css);
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+@import url(Subledge.css);
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  line-height: 1;
+  vertical-align: baseline;
+  color: #222222;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont,
+    system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo",
+    "Malgun Gothic", sans-serif;
+  box-sizing: border-box;
 }
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
+header h2 {
+  color: #fff;
 }
-main {
-    padding: 20px;
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
 }
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    line-height: 1;
-    vertical-align: baseline;
-    color: #222222;
-    -webkit-tap-highlight-color: transparent;
-    font-family: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-    box-sizing: border-box;
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
 }
-.container {
-    max-width: 1600px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 20px;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-.banner {
-    width: 100%;
-    height: 300px;
-    background-color: #b5d8b8;
-    margin-bottom: 48px;
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  font-size: inherit;
+  text-decoration: none;
+  background: transparent;
+  color: inherit;
+  outline: transparent;
+  cursor: pointer;
+  -webkit-highlight: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  vertical-align: top;
+}
+
+button {
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+  line-height: inherit;
+  cursor: pointer;
+  -webkit-highlight: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+small {
+  font-size: smaller;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+  font-size: 100%;
+  border-radius: 0;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+/* ie input스타일 */
+input::-ms-check {
+  display: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  display: none;
+  cursor: pointer;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background: #eee;
+}
+/* 노멀라이즈 시작 */
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* 해당 태그의 list-style을 none으로 하는 것으로 ●을 제거한다 */
+}
+
+a {
+  color: inherit; /* 부모 엘리먼트의 값을 물려받는다 */
+  text-decoration: none; /* 해당 태그의 text-decoration 속성을 none 값으로 하는 것으로 밑줄을 제거한다 */
+}
+/* 노멀라이즈 끝 */
+body {
+  height: 5000px;
+  background-color: #fff;
 }
