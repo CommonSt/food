@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: "pretendard", "Malgun Gothic", sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+element.style {
+}
+#skip {
+}
+html {
+  font-size: 10px;
+}
