@@ -1,0 +1,60 @@
+.gnb-open-btn img {
+  width: 100%;
+  max-width: 18.7rem;
+}
+.gnb-open-btn img {
+  animation: rotate_image 10s linear infinite;
+}
+.gnb-open-btn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4.6rem;
+  height: 4.6rem;
+  background-image: url(../images/gnb_btn_moon.png);
+  background-position: center center;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  text-indent: -9999em;
+}
+.sound-only {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+.gnb-info {
+  font-size: 1.3rem;
+}
+.gnb-info {
+  padding: 2.2rem 0;
+  text-align: center;
+}
+.wh,
+.wh:hover,
+.wh a,
+.wh a:hover {
+  color: #fff !important;
+}
+.gnb-info dl {
+  display: inline-block;
+  padding: 0 1rem;
+}
+.gnb-info dt {
+  float: left;
+}
+.gnb-info dt:after {
+  content: ":";
+  display: inline-block;
+}
+.gnb-info dd {
+  float: left;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.gnb-info dl {
+  display: inline-block;
+  padding: 0 1rem;
+}

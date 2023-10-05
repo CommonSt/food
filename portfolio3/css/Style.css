@@ -1,21 +1,56 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  width: 100%;
-  overflow-x: hidden;
-  line-height: 1.6;
-  font-size: 1.6rem;
-  font-family: "pretendard", "Malgun Gothic", sans-serif;
-  color: #000;
-  background-color: #fff;
-}
-element.style {
-}
 #skip {
 }
-html {
-  font-size: 10px;
+#pf-hd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #cff;
+}
+#skip a {
+  position: fixed;
+  left: 0;
+  top: -5rem;
+  display: block;
+  width: 100%;
+  background-color: #f7d241;
+  text-align: center;
+  line-height: 4.8rem;
+  color: #fff;
+  z-index: 9999;
+  transition: top 0.2s;
+}
+#pf-gnb {
+  background-size: 6rem;
+}
+#pf-gnb {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  height: 100vh;
+  background-color: #141724;
+  background-image: url(../images/gnb_moon.png);
+  background-repeat: no-repeat;
+  background-position: center 6rem;
+  transition: 0.8s;
+}
+#pf-gnb ol {
+  margin-top: 16rem;
+  text-align: center;
+}
+#pf-gnb li {
+  line-height: 1.8;
+}
+#pf-gnb li a {
+  font-size: 3.2rem;
+}
+#pf-gnb li a {
+  display: block;
+  font-size: 5.8rem;
+  font-weight: 700;
+  color: #141724;
+  -webkit-text-stroke: 1px #fff;
+  transition: 0.3s;
 }
