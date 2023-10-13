@@ -58,3 +58,147 @@
   display: inline-block;
   padding: 0 1rem;
 }
+.gnb-info dt {
+  float: left;
+}
+.gnb-close-btn {
+  position: absolute;
+  top: 2.4rem;
+  right: 2rem;
+}
+.sound-only {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+.mv-name {
+  font-size: 2rem;
+}
+.mv-desc {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.max480 {
+  width: 100%;
+  max-width: 48rem;
+}
+.mv-mountain img,
+.mv-title img {
+  width: 100%;
+}
+.mv-mountain {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/main_visual_mountain.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  z-index: 99;
+}
+.star:nth-child(1) {
+  top: 0;
+  right: 200px;
+  left: initial;
+  animation-delay: 0;
+  animation-duration: 2.6s;
+}
+.star {
+  position: absolute;
+  top: 0;
+  left: 22%;
+  width: 1px;
+  height: 1px;
+  background: #fff;
+  border-radius: 50%;
+}
+.star {
+  animation: animate 2.6s linear infinite;
+}
+.star:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0)
+  );
+}
+.wh,
+.wh:hover,
+.wh a,
+.wh a:hover {
+  color: #fff !important;
+}
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.star:nth-child(1) {
+  top: 0;
+  right: 200px;
+  left: initial;
+  animation-delay: 0;
+  animation-duration: 2.6s;
+}
+.star:nth-child(2) {
+  top: 0;
+  right: 650px;
+  left: initial;
+  animation-delay: 0.3s;
+  animation-duration: 2.2s;
+}
+.star:nth-child(3) {
+  top: 80px;
+  right: -200px;
+  left: initial;
+  animation-delay: 0.6s;
+  animation-duration: 2s;
+}
+.star:nth-child(4) {
+  top: 0;
+  left: 52%;
+  animation-delay: 0.8s;
+  animation-duration: 2.8s;
+}
+.star:nth-child(5) {
+  top: 0;
+  left: 34%;
+  animation-delay: 1.2s;
+  animation-duration: 2.5s;
+}
+.star {
+  position: absolute;
+  top: 0;
+  left: 22%;
+  width: 1px;
+  height: 1px;
+  background: #fff;
+  border-radius: 50%;
+}
+.star {
+  animation: animate 2.6s linear infinite;
+}
+.star:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0)
+  );
+}

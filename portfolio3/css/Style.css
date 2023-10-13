@@ -54,3 +54,7 @@
   -webkit-text-stroke: 1px #fff;
   transition: 0.3s;
 }
+#pf-main {
+  width: 100%;
+  overflow: hidden;
+}

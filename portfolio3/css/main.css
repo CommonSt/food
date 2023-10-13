@@ -48,3 +48,10 @@ h2 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
+p {
+  margin: 1em 0;
+}
+img {
+  border: 0;
+  vertical-align: top;
+}
