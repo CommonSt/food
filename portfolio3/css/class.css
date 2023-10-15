@@ -202,3 +202,54 @@
     rgba(255, 255, 255, 0)
   );
 }
+.main-about {
+}
+.sound-only {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+.about-h3 .wrap {
+  padding: 10rem 0 4rem;
+}
+.about-h3 .wrap {
+  padding: 12rem 0 6rem;
+}
+.wh,
+.wh:hover,
+.wh a,
+.wh a:hover {
+  color: #fff !important;
+}
+.wrap {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+.title86 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.ye,
+.ye:hover,
+.ye a,
+.ye a:hover {
+  color: #f7d241 !important;
+}
+.h3-desc {
+  font-size: 1.4rem;
+}
+.h3-desc {
+  margin: 3rem 0;
+  line-height: 1.8;
+}
+.max920 {
+  width: 100%;
+  max-width: 92rem;
+}
+.wrap {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
