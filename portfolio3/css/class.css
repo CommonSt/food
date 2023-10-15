@@ -253,3 +253,32 @@
   max-width: 1440px;
   margin: auto;
 }
+.about-icon {
+  width: 100%;
+}
+.about-icon li div {
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+}
+.about-icon li div {
+  width: 15rem;
+  height: 15rem;
+  margin: 3rem auto;
+  background-size: cover;
+  background-position: center center;
+}
+.about-icon li dt {
+  padding: 1.2rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.about-icon li {
+  padding: 3rem 0;
+}
+.about-icon li {
+  float: left;
+  width: 100%;
+  padding: 10rem 0;
+  text-align: center;
+}
