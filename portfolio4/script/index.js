@@ -51,6 +51,22 @@ namecard.addEventListener('click',()=>{
     }
     else{
         namecardpagel.style.opacity = '1'
-        
-    }
+        profilepage.style.display = 'none'
+        pagel.style.opacity ='0'
+        namecardi = true
+    } */
+})
+profile.addEventListener('click',()=>{
+    console.log('profileBtn')
+    namecardpage.style.display='none'
+    profilepage.style.display = 'block'
+    page1.style.display ='none'
+    page2.style.display ='none'
+    page3.style.display ='none'
+})
+
+pahe1btn.addEventListener('click',()=>{
+    console.log('port1')
+    namecardpage.style.display = 'none'
+    
 }
