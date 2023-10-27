@@ -1,0 +1,78 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote,
+dl,
+dd,
+dt,
+address,
+video,
+q,
+strong,
+em,
+del,
+sup,
+sub,
+s,
+code,
+img,
+a,
+table,
+tr,
+th,
+td,
+thead,
+tbody,
+tfoot,
+form,
+fieldset,
+legend,
+input,
+button,
+label,
+textarea,
+select,
+option,
+header,
+main,
+section,
+article,
+footer,
+aside,
+nav,
+figure,
+figcaption,
+div,
+span {
+  font-family: "Noto Sans KR", "Font Awesome 5 Free", "Font Awesome 5 Brands",
+    sans-serif;
+  /* font-family: 'Nanum Gothic', sans-serif; */
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  list-style: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  margin: 8px;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
