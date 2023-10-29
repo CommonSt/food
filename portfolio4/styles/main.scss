@@ -77,3 +77,46 @@ main .profilepage .profilewrap1 {
   top: 25%;
   left: 20%;
 }
+main .profilepage .profilewrap1 > p > a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+}
+main .profilepage .profilewrap1 .effectcate {
+  display: flex;
+  margin-top: 15px;
+}
+main .profilepage .profilewrap1 .effectcate p .effect {
+  color: #7c9070;
+}
+main .profilepage .profilewrap1 > p > a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+}
+main .profilepage .profilewrap2 {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+}
+main .profilepage .profilewrap2 h1 {
+  margin-bottom: 20px;
+}
+* h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+main .profilepage {
+  display: none;
+  color: #fff;
+  transition: all 1.5s;
+}
+li {
+  line-height: 1.8;
+  color: #fff;
+}
+main .profilepage .profilewrap2 .wrap2Container ul li h5 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
