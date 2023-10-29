@@ -32,3 +32,48 @@ main .nav button::after {
   transition: all 0.5s;
   width: 0;
 }
+main .navbg {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 150px;
+  height: 420px;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  z-index: 299;
+  transition: all 0.7s;
+  background-color: #222;
+}
+main .navbg a {
+  text-align: right;
+  line-height: 420px;
+  margin-right: 3px;
+  display: block;
+  cursor: pointer;
+}
+main .navbg a img {
+  color: #fff;
+  transform: rotate(180deg);
+}
+main .namecardpage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100%;
+  transition: all 1.5s;
+}
+main .profilepage {
+  display: none;
+  color: #fff;
+  transition: all 1.5s;
+}
+main .profilepage .profilewrap {
+}
+main .profilepage .profilewrap1 {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
