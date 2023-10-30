@@ -1,58 +1,14 @@
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-li,
-blockquote,
-dl,
-dd,
-dt,
-address,
-video,
-q,
-strong,
-em,
-del,
-sup,
-sub,
-s,
-code,
-img,
-a,
-table,
-tr,
-th,
-td,
-thead,
-tbody,
-tfoot,
-form,
-fieldset,
-legend,
-input,
-button,
-label,
-textarea,
-select,
-option,
-header,
-main,
-section,
-article,
-footer,
-aside,
-nav,
-figure,
-figcaption,
-div,
-span {
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+html,body,h1,h2,h3,h4,h5,h6,/* ì œëª©íƒœê·¸ */
+p,ul,ol,li,blockquote,dl,dd,dt,address,video,/* ë¸”ë¡íƒœê·¸ */
+q, strong,em,del,sup,sub,s,code,img,a,/* ì¸ë¼ì¸íƒœê·¸ */
+table, tr, th, td, thead, tbody, tfoot,/* í…Œì´ë¸”íƒœê·¸ */
+form,fieldset,legend,input,button,label,textarea,select,option,/* í¼íƒœê·¸ */
+header,main,section,article,footer,aside,nav,figure,figcaption,/* ì‹œë©˜í‹±íƒœê·¸ */
+div,span/* ê·¸ë£¹íƒœê·¸ */ {
   font-family: "Noto Sans KR", "Font Awesome 5 Free", "Font Awesome 5 Brands",
     sans-serif;
   /* font-family: 'Nanum Gothic', sans-serif; */
@@ -64,19 +20,42 @@ span {
   line-height: 1;
   list-style: none;
 }
-* {
-  box-sizing: border-box;
+a {
+  text-decoration: none;
+  color: black;
 }
-body {
-  display: block;
-  margin: 8px;
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
 }
 button {
   cursor: pointer;
   border: none;
   background: none;
 }
-a {
-  text-decoration: none;
-  color: black;
+.skip {
+  display: none;
 }
+fieldset {
+  border: 0;
+}
+legend {
+  display: none;
+}
+.lefticon::after,
+.lefticon::before {
+  font-weight: 600;
+  display: inline;
+  content: "\f053";
+}
+.homeicon::before {
+  font-weight: 600;
+  display: inline;
+  content: "\f015";
+}
+/* 
+.sikp class=skip
+ class=righticon ëŒ€ìƒì€ ì•žë’¤ í™”ì‚´í‘œ
+*/
