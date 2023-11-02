@@ -22,10 +22,11 @@ navBtn.addEventListener("click", (e) => {
     nav.style.left = "-200px";
     navbg.style.left = "-125px";
     arrow.style.transform = "rotate(0deg)";
+
     navBtni = false;
   } else {
-    nav.stlye.left = "-30px";
-    navbg.stlye.left = "50px";
+    nav.style.left = "-30px";
+    navbg.style.left = "50px";
     arrow.style.transform = "rotate(180deg)";
     navBtni = true;
   }
@@ -39,21 +40,22 @@ namecard.addEventListener("click", () => {
   page1.style.display = "none";
   page2.style.display = "none";
   page3.style.display = "none";
-  /* page2.style.display='none'
-    page3.style.display = 'nane' */
-  /* if(namecardi == true){
-        namecardpage.style.opacity='1'
-        profilepage.style.display='none'
+  /*     page2.style.display = 'none'
+    page3.style.display = 'none' */
+  /*     if(namecardi == true){
+        namecardpage.style.opacity = '1'
+        profilepage.style.display = 'none'
         page1.style.opacity = '0'
-        namecardi=false
+        namecardi = false
     }
     else{
-        namecardpagel.style.opacity = '1'
+        namecardpage.style.opacity = '1'
         profilepage.style.display = 'none'
-        pagel.style.opacity ='0'
+        page1.style.opacity = '0'
         namecardi = true
     } */
 });
+
 profile.addEventListener("click", () => {
   console.log("profileBtn");
   namecardpage.style.display = "none";
@@ -63,7 +65,7 @@ profile.addEventListener("click", () => {
   page3.style.display = "none";
 });
 
-pahe1btn.addEventListener("click", () => {
+page1btn.addEventListener("click", () => {
   console.log("port1");
   namecardpage.style.display = "none";
   profilepage.style.display = "none";
@@ -71,7 +73,7 @@ pahe1btn.addEventListener("click", () => {
   page2.style.display = "none";
   page3.style.display = "none";
 });
-pahe2btn.addEventListener("click", () => {
+page2btn.addEventListener("click", () => {
   console.log("port1");
   namecardpage.style.display = "none";
   profilepage.style.display = "none";
@@ -79,7 +81,7 @@ pahe2btn.addEventListener("click", () => {
   page2.style.display = "flex";
   page3.style.display = "none";
 });
-pahe3btn.addEventListener("click", () => {
+page3btn.addEventListener("click", () => {
   console.log("port1");
   namecardpage.style.display = "none";
   profilepage.style.display = "none";
